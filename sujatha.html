@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Navigation Bar</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #f4a000;
+            padding: 0;
+        }
+
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar ul li {
+            position: relative;
+        }
+
+        .navbar ul li a {
+            display: block;
+            padding: 18px 30px;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .navbar ul li a:hover {
+            background-color: #e59400;
+        }
+
+        /* Dropdown arrow */
+        .dropdown::after {
+            content: " ▼";
+            font-size: 12px;
+        }
+
+        /* Content */
+        .content {
+            padding: 40px;
+            font-size: 20px;
+        }
+
+        .content b {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" class="dropdown">Services</a></li>
+            <li><a href="#" class="dropdown">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        This navigation bar is built using a <b>CSS model</b>
+    </div>
+
+</body>
+</html>

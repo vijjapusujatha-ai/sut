@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 jcdznjfngflkggjsj
+=======
+jcdznjfngflkfkkmgkfk
+>>>>>>> e5889b182b2a987c198b7c94f6822f8266b6e5bb
